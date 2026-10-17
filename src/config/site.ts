@@ -1,15 +1,16 @@
 import type { SiteConfig, ThemeConfig, SettingsConfig, UmamiAnalyticsConfig, AnalyticsConfig } from "../types";
 
 export const SITE: SiteConfig = {
-    website: "https://shannon.github.io/academic-portfolio-astro/",
-    author: "Claude Shannon",
-    desc: "Personal academic portfolio and blog of Claude Shannon, Father of Information Theory.",
-    title: "Claude Shannon",
+    website: "https://olofnebrin.github.io/",
+    author: "Olof Nebrin",
+    desc: "Personal academic website of Olof Nebrin. Research in astrophysics, Cosmic Dawn, star formation, and radiation hydrodynamics.",
+    title: "Olof Nebrin",
     ogImage: "shannon.webp",
     postPerPage: 5,
     favicon: "/favicon.svg",
     lang: "en",
 };
+
 
 export const THEME_CONFIG: ThemeConfig = {
     lightAndDark: true,
